@@ -4,7 +4,7 @@ const chatInput = document.getElementById("chat-input");
 const chatbox = document.querySelector(".chatbox");
 
 // Backend URL (replace with your backend URL if deploying)
-const backendURL = 'http://localhost:8080/assistant';
+const backendURL = 'https://cdn.jsdelivr.net/gh/hkumar30/ai-assistant/chatbot.js';
 
 // Function to append messages to the chatbox
 function appendMessage(message, sender) {
